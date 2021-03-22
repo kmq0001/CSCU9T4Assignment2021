@@ -88,7 +88,7 @@ public class RefTest {
         System.out.println("getPublisher");
         Ref instance = null;
         String expResult = "";
-        String result = instance.getPublisher();
+        String result = instance.getPubName();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
@@ -116,7 +116,7 @@ public class RefTest {
         System.out.println("getDateAdded");
         Ref instance = null;
         String expResult = "";
-        String result = instance.getDateAdded();
+        String result = instance.getDate();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");

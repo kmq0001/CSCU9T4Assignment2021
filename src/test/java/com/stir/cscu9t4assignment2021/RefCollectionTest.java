@@ -74,7 +74,7 @@ public class RefCollectionTest {
         String venue = "";
         RefCollection instance = new RefCollection();
         String expResult = "";
-        String result = instance.loopUpByVenue(venue);
+        String result = instance.lookUpByVenue(venue);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
